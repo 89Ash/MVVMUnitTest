@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:ProjectMVVM.View"
+    xmlns:viewModel="clr-namespace:ProjectMVVM.ViewModel"
+    x:Class="ProjectMVVM.View.LocationPage"
+    BackgroundColor="#4674c1">
+    
+    <ContentPage.BindingContext>
+        <viewModel:LocationPageViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Content>
+        <StackLayout Margin="10,30,0,30" Orientation="Vertical" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Label Text="{Binding WelcomeText}" 
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+            <Label Text="{Binding LocationText}"
+                   Margin="0,20,0,0"
+                   VerticalOptions="Start"
+                   HorizontalOptions="Center"/>
+            <Button x:Name="buttonMain"
+                    WidthRequest="150"
+                    Text="Back"
+                    VerticalOptions="End"
+                    HorizontalOptions="Center"
+                    BackgroundColor="#eb7d3c"
+                    TextColor="White"
+                    Command="{Binding OnClick}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

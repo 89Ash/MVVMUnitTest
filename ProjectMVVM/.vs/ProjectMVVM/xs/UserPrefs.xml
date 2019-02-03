@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{2EA3BD0C-E455-4716-A2A8-645B52C83FFC}|Default">
+  <MonoDevelop.Ide.ItemProperties.ProjectMVVM.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.09CF67EF-AAB7-4785-81EC-B220E2A985F7">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.ProjectMVVM.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="ProjectMVVM.Test/Test.cs" Line="54" Column="57" />
+      <File FileName="ProjectMVVM/ViewModel/LocationPageViewModel.cs" Line="22" Column="34" />
+      <File FileName="ProjectMVVM.Test/TestNavigationService.cs" Line="19" Column="51" />
+      <File FileName="ProjectMVVM.Test/TestLocationService.cs" Line="6" Column="18" />
+      <File FileName="ProjectMVVM/Service/IPlatformLocationService.cs" Line="4" Column="22" />
+      <File FileName="Droid/MainActivity.cs" Line="29" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ProjectMVVM" expanded="True">
+            <Node name="ProjectMVVM.Test" expanded="True">
+              <Node name="ProjectMVVM" expanded="True">
+                <Node name="Test" expanded="True">
+                  <Node name="display_appropriate_location_text_on_landing_to_second_page" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
